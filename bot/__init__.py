@@ -168,7 +168,7 @@ except KeyError as e:
     LOGGER.warning("AUTO_DELETE_UPLOAD_MESSAGE_DURATION var missing!")
     pass
 LOGGER.info("Generating BOT_SESSION_STRING")
-app = Client(name='pyrogram', api_id=int(TELEGRAM_API), api_hash=TELEGRAM_HASH, bot_token=BOT_TOKEN, parse_mode=enums.ParseMode.HTML, no_updates=True)
+app = Client(name='pyrogram', api_id=6380609, api_hash='7a35f619bcaf126a8b6f081b4d900af8', bot_token=BOT_TOKEN, parse_mode=enums.ParseMode.HTML, no_updates=True)
 
 try:
     USER_SESSION_STRING = getConfig('USER_SESSION_STRING')
